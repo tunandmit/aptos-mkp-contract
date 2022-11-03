@@ -1,0 +1,18 @@
+[package]
+name = 'whitelist'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-token'
+
+[addresses]
+whitelist = "0xa7cd86ca9bc313c320b24d48b00cedeb441cd5af3de1e88c4a04d5c923ebd838"
+Std = "0x1"
+aptos_std = "0x1"
