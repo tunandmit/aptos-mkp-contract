@@ -1,5 +1,5 @@
 [package]
-name = 'whitelist'
+name = 'rarewave'
 version = '1.0.0'
 
 [dependencies.AptosFramework]
@@ -13,6 +13,6 @@ rev = 'devnet'
 subdir = 'aptos-move/framework/aptos-token'
 
 [addresses]
-whitelist = "0xa7cd86ca9bc313c320b24d48b00cedeb441cd5af3de1e88c4a04d5c923ebd838"
+rarewave = "0xb33d04e0873c4f4b3fca881ddb2381658e620ce2cb598e1c60b925feb7d945c2"
 Std = "0x1"
 aptos_std = "0x1"

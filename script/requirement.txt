@@ -1,0 +1,7 @@
+pynacl
+requests
+httpx
+pick
+aptos-sdk
+Pillow
+arweave-python-client
